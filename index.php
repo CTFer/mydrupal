@@ -21,5 +21,5 @@ drupal_bootstrap(DRUPAL_BOOTSTRAP_FULL);
 
 // require_once 'includes/password.inc';
 // echo user_hash_password('这里是密码');
-// die();忘记密码就把这三句话打开.
+// die();忘记密码就把这三句话打开，CTFer修改
 menu_execute_active_handler();
