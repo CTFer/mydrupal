@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * 函数common_theme_path定义了主题的绝对路径，方便以后加载图片、js和css；
+ * 
+ */
+function common_theme_path(){
+global $base_url;
+return $base_url.'/'.drupal_get_path('theme','wjdemo');
+
+}
+/**
+ * Implements hook_page_alert().函数common_page_alter是一个hook类型函数，主要为了去掉前台的admin menu菜单
+ */
+function common_page_alert(){
+    global $theme_key;
+    if($theme_key=='wjdemo'){
+        unset($page['page_bottom']['admin_menu']);
+    }
+}

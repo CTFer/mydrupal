@@ -1,0 +1,11 @@
+name = WJdemo
+description = 打造一款WJ专属、简洁高效的内网CMS
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[all][] = layout.css
+
+; Information added by Drupal.org packaging script on 2018-04-25
+version = "7.59"
+project = "drupal"
+datestamp = "1524673284"

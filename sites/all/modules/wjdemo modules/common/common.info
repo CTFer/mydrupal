@@ -1,0 +1,6 @@
+name = common
+description = 定义全局函数，处理公共业务
+pacakge = Custom
+core = 7.x
+
+version = 7.x - 0.1

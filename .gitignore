@@ -1,0 +1,6 @@
+# Ignore configuration files that may contain sensitive information.忽略可能包含敏感信息的文件
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
